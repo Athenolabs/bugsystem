@@ -22,7 +22,7 @@ function renderChart(rdata){
    
     FusionCharts.ready(function () {
             revenueChart = new FusionCharts({
-                type: 'pie3d',
+                type: 'pie2d',
                 renderAt: 'chart-container',
                 width: '600',
                 height: '450',
